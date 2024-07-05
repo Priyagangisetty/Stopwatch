@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btns{
+    display: flex;
+}
+button{
+    width:160px;
+    height:50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    margin: 5px;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.display{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
